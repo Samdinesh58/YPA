@@ -1,0 +1,20 @@
+{
+    "name": "YPA Academy",
+    "slug": "ypa-academy",
+    "version": "0.1.0",
+    "type": "mvc",
+    "private": true,
+    "dependencies": {
+        "fw1": "^4.2.0"
+    },
+    "devDependencies": {
+        "testbox": "^5.0.0"
+    },
+    "installPaths": {
+        "fw1": "framework/",
+        "testbox": "testbox/"
+    },
+    "testbox": {
+        "runner": "http://127.0.0.1:8500/tests/runner.cfm"
+    }
+}
